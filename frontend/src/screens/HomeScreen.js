@@ -1,8 +1,11 @@
 import { useEffect, useReducer } from "react"
-import { Link } from "react-router-dom"
 // import data from "../data"
 import axios from 'axios'
 import logger from 'use-reducer-logger'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Product from "../components/Product"
+
 
 const reducer = (state, action) => {
     switch (action.type) {
@@ -41,29 +44,21 @@ function HomeScreen() {
         fetchData()
     }, [])
     return <div>
-        <h1> Featured Products</h1>
+        <h1> SHOES</h1>
         <div className="products">
             {
                 loading ? <div>loading...</div> : error ? <div>{error}</div> :
-                    (products.map(product => (
-                        <div className="product" key={product.slug}>
-                            <Link to={`/product/${product.slug}`}>
-                                <img src={product.image} alt={product.name} width="500" height="450" />
-                            </Link>
-                            <div className="product-info" >
-                                <Link to={`/product/${product.slug}`}>
+                    (
+                        <Row>
+                            {products.map(product => (
+                                <Col key={product.slug} sm={6} md={4} lr={3} className="mb-3">
+                                  <Product product={product}></Product>
+                                </Col>
+                            ))
+                            }
+                        </Row>
 
-                                    <p>{product.name}</p>
-                                </Link>
-                                <Link to={`/product/${product.slug}`}>
-
-                                </Link>
-                                <p><strong>{product.price} DT</strong></p>
-                                <button>Add To Cart</button>
-                            </div>
-                        </div>
-                    )))
-            }
+                    )}
         </div>
     </div>
 }

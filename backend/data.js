@@ -8,7 +8,7 @@ const data = {
             price: 290,
             countInStock: 10,
             brand: 'Nike',
-            rating: 4.5,
+            rating: 5,
             numReviews: 10,
             description: "high quality shoes"
         },
@@ -44,7 +44,7 @@ const data = {
             price: 247,
             countInStock: 15,
             brand: 'New balance',
-            rating: 4.5,
+            rating: 3.5,
             numReviews: 14,
             description: "high quality shoes"
         },
