@@ -6,10 +6,10 @@ const data = {
             category: 'Shoes',
             image: '/images/p1.png',
             price: 290,
-            countInStock: 10,
+            countInStock: 0,
             brand: 'Nike',
             rating: 5,
-            numReviews: 10,
+            numReviews: 11,
             description: "high quality shoes"
         },
         {
