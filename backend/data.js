@@ -30,7 +30,7 @@ const data = {
             category: 'Shoes',
             image: '/images/p3.png',
             price: 260,
-            countInStock: 5,
+            countInStock: 0,
             brand: 'adidas',
             rating: 4.5,
             numReviews: 10,

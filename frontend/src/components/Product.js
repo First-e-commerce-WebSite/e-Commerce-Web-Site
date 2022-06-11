@@ -16,7 +16,7 @@ function Product(props){
                 <Card.Title>{product.name}</Card.Title>
             </Link>
             <Rating rating={product.rating} numReviews={product.numReviews} />
-            <Card.Text>${product.price}</Card.Text>
+            <Card.Text>{product.price} DT</Card.Text>
             <Button>Add To Cart</Button>
         </Card.Body>
        
