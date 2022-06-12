@@ -13,10 +13,14 @@ import LoadingBox from "../components/LoadingBox.js";
 import MessageBox from "../components/MessageBox.js";
 import { getError } from "../utils.js";
 import { Store } from "../Store.js";
+import { useNavigate  } from 'react-router-dom';
+
 
 
 
 function ProductScreen() {
+    const navigate = useNavigate();
+
     const params = useParams();
     const { slug } = params
 
@@ -71,6 +75,8 @@ function ProductScreen() {
             return
         }
         ctxDispatch({ type: 'CART_ADD_ITEM', payload: { ...product, quantity } })
+        navigate('/cart');
+
     }
 
     return (
