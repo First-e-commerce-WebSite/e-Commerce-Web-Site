@@ -1,6 +1,7 @@
 const data = {
     products: [
         {
+            _id:'1',
             name: 'Nike air',
             slug: 'nike-air',
             category: 'Shoes',
@@ -13,6 +14,7 @@ const data = {
             description: "high quality shoes"
         },
         {
+            _id:'2',
             name: 'Nike air',
             slug: 'nike-air-red',
             category: 'Shoes',
@@ -25,6 +27,7 @@ const data = {
             description: "high quality shoes"
         },
         {
+            _id:'3',
             name: 'Super-Star',
             slug: 'adidas',
             category: 'Shoes',
@@ -37,6 +40,7 @@ const data = {
             description: "high quality shoes"
         },
         {
+            _id:'4',
             name: 'New Balance',
             slug: 'new-balance',
             category: 'Shoes',
