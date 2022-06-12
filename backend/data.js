@@ -68,6 +68,45 @@ const data = {
             numReviews: 14,
             description: "high quality shoes"
         },
+        {
+            // _id:'5',
+            name: 'Nike air blue',
+            slug: 'nike-air-blue',
+            category: 'Shoes',
+            image: '/images/p5.png',
+            price: 290,
+            countInStock: 4,
+            brand: 'Nike',
+            rating: 5,
+            numReviews: 18,
+            description: "high quality shoes"
+        },
+        {
+            // _id:'6',
+            name: 'New Balance brown',
+            slug: 'New-Balance-Brown',
+            category: 'Shoes',
+            image: '/images/p6.png',
+            price: 247,
+            countInStock: 6,
+            brand: 'Nike',
+            rating: 3.5,
+            numReviews: 9,
+            description: "high quality shoes"
+        },
+        {
+            // _id:'1',
+            name: 'Nike air Jordan',
+            slug: 'nike-air-Jordan',
+            category: 'Shoes',
+            image: '/images/p7.png',
+            price: 290,
+            countInStock: 2,
+            brand: 'Nike',
+            rating: 5,
+            numReviews: 20,
+            description: "high quality shoes"
+        },
     ]
 }
 
