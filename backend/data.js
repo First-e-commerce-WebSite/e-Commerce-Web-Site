@@ -1,8 +1,8 @@
 const data = {
     products: [
         {
-            _id:'1',
-            name: 'Nike air',
+            // _id:'1',
+            name: 'Nike air white',
             slug: 'nike-air',
             category: 'Shoes',
             image: '/images/p1.png',
@@ -14,8 +14,8 @@ const data = {
             description: "high quality shoes"
         },
         {
-            _id:'2',
-            name: 'Nike air',
+            // _id:'2',
+            name: 'Nike air red',
             slug: 'nike-air-red',
             category: 'Shoes',
             image: '/images/p2.png',
@@ -27,7 +27,7 @@ const data = {
             description: "high quality shoes"
         },
         {
-            _id:'3',
+            // _id:'3',
             name: 'Super-Star',
             slug: 'adidas',
             category: 'Shoes',
@@ -40,7 +40,7 @@ const data = {
             description: "high quality shoes"
         },
         {
-            _id:'4',
+            // _id:'4',
             name: 'New Balance',
             slug: 'new-balance',
             category: 'Shoes',
